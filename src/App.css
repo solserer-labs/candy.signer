@@ -1,0 +1,57 @@
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(58, 58, 58);
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(14, 12, 12, 0.2);
+}
+html {
+  overflow-x: hidden;
+}
+.App {
+  text-align: center;
+}
+.mainc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  background-color: #15202b;
+}
+html {
+  scroll-behavior: smooth;
+}
+.cndymch {
+  color: wheat;
+  z-index: 0;
+}
+.MuiFormLabel-root {
+  color: wheat !important;
+  
+}
+.MuiInputBase-root {
+  color: wheat !important;
+  text-align: center;
+}
+.signBtn {
+  padding: 1rem;
+}.selectorC {
+  width: 15rem;
+  padding: 1rem;
+}
+.react-select-3-listbox {
+  background-color: black !important;
+}
+@media (max-width: 992px) {
+  
+}
