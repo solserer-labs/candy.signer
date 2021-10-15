@@ -1,5 +1,6 @@
 #Try it out
-candysign.vercel.app
+
+https://candysign.vercel.app
 
 #Launching
 
