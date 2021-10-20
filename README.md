@@ -1,5 +1,7 @@
 #Try it out
 
+https://candysign.vercel.app
+
 #Launching
 
 1. `yarn`
