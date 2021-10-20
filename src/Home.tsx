@@ -28,6 +28,9 @@ const Home = (props: HomeProps) => {
   let connection = new anchor.web3.Connection("https://api.devnet.solana.com");
   const [signoutput, setSignOutput] = useState(String);
   const [candyid, setCandy] = useState(String);
+  const setNetworkChange = (option) => {
+    connection = new anchor.web3.Connection(option.value);
+  }
   const setCandyChange = (event) => {
     setCandy(event.target.value);
   };
@@ -61,7 +64,7 @@ const Home = (props: HomeProps) => {
       <h4>Candy Machine Metadata Signer</h4>
       <div className="selectorC">
       
-      <Select styles={customStyles} options={options} />
+      <Select styles={customStyles} options={options} onChange={setNetworkChange}/>
       </div>
       <div className="cndymch">
         <TextField
