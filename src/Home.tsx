@@ -12,7 +12,7 @@ const SignContainer = styled.div``; // add your styles here
 const SignButton = styled(Button)``; // add your styles here
 const options = [
   { value: 'https://api.devnet.solana.com', label: 'devnet' },
-  { value: 'https://api.mainnet-beta.solana.com', label: 'mainnet' },
+  { value: 'https://lokidfxnwlabdq.main.genesysgo.net:8899/', label: 'mainnet' },
 ]
 const customStyles = {
   option: (provided, state) => ({
@@ -48,7 +48,7 @@ const Home = (props: HomeProps) => {
         connection,
         wallet,
         candyid,
-        10,
+        20,
         handleChangeOut
       );
     } catch (error) {
